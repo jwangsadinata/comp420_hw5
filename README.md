@@ -39,15 +39,21 @@ Checklist
 
 * Examine the response that you get back from the request you made. How does the object look like? What items can you use for this assignment?
 
-* Once you familiarize yourself with the structure of the response, try to get the relevant information out of the response. **Hint:** If you are using `XMLHttpRequest()`, you can use `JSON.parse()` to convert the response string to a more familiar JavaScript object.
+* Once you familiarize yourself with the structure of the response, try to get the relevant information out of the response. 
+
+  **Hint:** If you are using `XMLHttpRequest()`, you can use `JSON.parse()` to convert the response string to a more familiar JavaScript object.
 
 * Time to make use some of your DOM manipulation knowledge. Initialize variables that allows you to change/modify HTML contents.
 
-* Using JavaScript, create a dropdown list for all the currencies you can compare your base currency with. **Hint:** You can create a dropdown using the HTML `<select>` tag, and specify the `<option>`.
+* Using JavaScript, create a dropdown list for all the currencies you can compare your base currency with.
+
+  **Hint:** You can create a dropdown using the HTML `<select>` tag, and specify the `<option>`.
 
 * Display the dropdown list to the page.
 
-* Now, create an event listener to the button, so that when you click it, it will show the conversion rate. You will need to retrieve a value from the dropdown. **Hint:** You can use `.selectedIndex` to get the index of the value you chose on the dropdown menu. Figure out how this will help you getting the conversion rate.
+* Now, create an event listener to the button, so that when you click it, it will show the conversion rate. You will need to retrieve a value from the dropdown.
+
+  **Hint:** You can use `.selectedIndex` to get the index of the value you chose on the dropdown menu. Figure out how this will help you getting the conversion rate.
 
 * Display the conversion rate to the page.
 
@@ -57,7 +63,9 @@ Checklist
 
 **Here are some ideas on what you can do:**
 
-* (Optional #1) Write a function that allows you to change the base currency to any other currencies in [fixer.io](http://fixer.io/). That way, you have a more flexible options of what different conversion rates you want to examine. **Hint:** You can use the list of currencies that you get from your first API call to generate this list of base currencies.
+* (Optional #1) Write a function that allows you to change the base currency to any other currencies in [fixer.io](http://fixer.io/). That way, you have a more flexible options of what different conversion rates you want to examine.
+
+  **Hint:** You can use the list of currencies that you get from your first API call to generate this list of base currencies.
 
 * (Optional #2) Write a function that allows you to convert not just 1 USD to other currencies, but also `x` USD to other currencies, where `x` is a number. This should be a pretty straight multiplication function. However, do not forget to update your HTML so that you allow the users to input a number that you can process.
 
