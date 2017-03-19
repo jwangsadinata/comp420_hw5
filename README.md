@@ -31,7 +31,7 @@ You will need to be comfortable with the following concepts and skills:
 * Basic Git and unix command line usage and how to push your code to GitHub.
 
 Checklist
-=========
+----------
 
 * Create an appropriate HTML elements for the display (base currency, a dropdown for the list of currencies, a button, displaying the value, etc).
 
